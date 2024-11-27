@@ -1,0 +1,182 @@
+.web-footer {
+    display: none;
+}
+
+.navbar.navbar-light {
+    display: none;
+}
+
+.for-login .login-content.page-card,
+.for-signup .login-content.page-card,
+.for-forgot .login-content.page-card {
+    overflow: hidden;
+    padding-top: 0;
+}
+
+.for-login .page-card-head h4,
+.for-signup .page-card-head h4,
+.for-forgot .page-card-head h4 {
+    position: relative;
+    color: white;
+    line-height: 1;
+    font-size: 24px;
+}
+
+.for-login .page-card-head img,
+.for-signup .page-card-head img,
+.for-forgot .page-card-head img {
+    margin-bottom: 0px;
+}
+
+.login-content .page-card-head {
+    position: relative;
+    margin-bottom: 50px;
+    padding: 30px 30px 30px;
+    text-align: center;
+    background: none;
+}
+
+.login-content .page-card-head::before {
+    background: #24b0c7;
+    content: "";
+    position: absolute;
+    height: 280px;
+    width: 490px;
+    border-radius: 50%;
+    top: -102px;
+    left: -70px;
+    z-index: 0;
+    transform: rotate(5deg);
+}
+
+.for-login .sign-up-message a,
+.for-signup .sign-up-message a,
+.for-forgot .sign-up-message a {
+    font-size: 16px;
+    color: #212529;
+}
+
+.btn.link-btn {
+    padding: 0;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    outline: none !important;
+    box-shadow: none;
+    border-bottom: 2px solid #ebebeb;
+    border-radius: 0px;
+}
+
+.for-login .page-card .page-card-body .forgot-password-message,
+.for-forgot .page-card .page-card-body .forgot-password-message,
+.for-signup .page-card .page-card-body .forgot-password-message,
+.for-email-login .page-card .page-card-body .forgot-password-message {
+    text-align: center;
+}
+
+.for-login .page-card .page-card-body .forgot-password-message a,
+.for-forgot .page-card .page-card-body .forgot-password-message a,
+.for-signup .page-card .page-card-body .forgot-password-message a,
+.for-email-login .page-card .page-card-body .forgot-password-message a {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.for-login .page-card .page-card-body input[type=text],
+.for-login .page-card .page-card-body input[type=email],
+.for-login .page-card .page-card-body input[type=password],
+.for-forgot .page-card .page-card-body input[type=text],
+.for-forgot .page-card .page-card-body input[type=email],
+.for-forgot .page-card .page-card-body input[type=password],
+.for-signup .page-card .page-card-body input[type=text],
+.for-signup .page-card .page-card-body input[type=email],
+.for-signup .page-card .page-card-body input[type=password],
+.for-email-login .page-card .page-card-body input[type=text],
+.for-email-login .page-card .page-card-body input[type=email],
+.for-email-login .page-card .page-card-body input[type=password] {
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    height: 48px;
+    padding: 0 15px;
+    font-size: 15px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: #3f3f3f;
+}
+
+.for-login .page-card .page-card-body .email-field .toggle-password,
+.for-login .page-card .page-card-body .password-field .toggle-password,
+.for-forgot .page-card .page-card-body .email-field .toggle-password,
+.for-forgot .page-card .page-card-body .password-field .toggle-password,
+.for-signup .page-card .page-card-body .email-field .toggle-password,
+.for-signup .page-card .page-card-body .password-field .toggle-password,
+.for-email-login .page-card .page-card-body .email-field .toggle-password,
+.for-email-login .page-card .page-card-body .password-field .toggle-password {
+    top: 15px;
+}
+
+.btn.btn-primary {
+    background-color: #24b0c7;
+    -webkit-box-shadow: 0px 0px 2px 0px #3e997280;
+    box-shadow: 0px 0px 10px 2px #3e997280;
+    background-size: auto 140%;
+    border: 0px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-position: bottom center;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #24b0c7;
+    border-color: #24b0c7;
+}
+
+.btn {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    line-height: 48px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    outline: 0;
+}
+
+.for-login .page-card-head img,
+.for-forgot .page-card-head img,
+.for-signup .page-card-head img,
+.for-email-login .page-card-head img {
+    max-height: 90px;
+}
+
+html:lang(ar) .login-content .form-control {
+    direction: rtl;
+}
+
+.dropdown-item.img-thumbnail {
+    width: 50px;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.dropdown-menu.show {
+    max-width: 60px;
+    min-width: 60px;
+}
+
+.language-switcher-image {
+    cursor: pointer;
+}
+
+.login-content.page-card {
+    padding-bottom: 45px;
+}
