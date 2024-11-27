@@ -1,0 +1,212 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-09 13:48:08.698567",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "item_price_section",
+  "sales_column",
+  "sales_item_price_including_vat",
+  "sales_item_price_excluding_vat",
+  "purchases_column",
+  "purchase_item_price_including_vat",
+  "purchase_item_price_excluding_vat",
+  "item_vat_category_section",
+  "vat_15",
+  "vat_0",
+  "column_break_rttj",
+  "vat_exempt",
+  "out_of_scope",
+  "customer_categories_section",
+  "standard_rated_demostic_sales",
+  "zero_rated_demostic_sales",
+  "exempt_sales",
+  "column_break_dqgp",
+  "private_healthcare__education_to_citizens",
+  "exports",
+  "supplier__vendor_categories_section",
+  "standard_rated_demostic_purchases",
+  "imported_subject_vat_accounted_for_reserve",
+  "exempt_purchases",
+  "column_break_olik",
+  "imported_subject_vat_paid_at_customs",
+  "zero_rated_demostic_purchases"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_price_section",
+   "fieldtype": "Section Break",
+   "label": "Item Price"
+  },
+  {
+   "fieldname": "sales_column",
+   "fieldtype": "Column Break",
+   "label": "Sales"
+  },
+  {
+   "default": "0",
+   "fieldname": "sales_item_price_including_vat",
+   "fieldtype": "Check",
+   "label": "Sales Item Price Including VAT"
+  },
+  {
+   "default": "0",
+   "fieldname": "sales_item_price_excluding_vat",
+   "fieldtype": "Check",
+   "label": "Sales Item Price Excluding VAT"
+  },
+  {
+   "fieldname": "purchases_column",
+   "fieldtype": "Column Break",
+   "label": "Purchases "
+  },
+  {
+   "default": "0",
+   "fieldname": "purchase_item_price_including_vat",
+   "fieldtype": "Check",
+   "label": "Purchase Item Price Including VAT"
+  },
+  {
+   "default": "0",
+   "fieldname": "purchase_item_price_excluding_vat",
+   "fieldtype": "Check",
+   "label": "Purchase Item Price Excluding VAT"
+  },
+  {
+   "fieldname": "item_vat_category_section",
+   "fieldtype": "Section Break",
+   "label": "Item VAT Category"
+  },
+  {
+   "default": "0",
+   "fieldname": "vat_15",
+   "fieldtype": "Check",
+   "label": "VAT 15%"
+  },
+  {
+   "default": "0",
+   "fieldname": "vat_0",
+   "fieldtype": "Check",
+   "label": "VAT 0%"
+  },
+  {
+   "fieldname": "column_break_rttj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "vat_exempt",
+   "fieldtype": "Check",
+   "label": "VAT Exempt"
+  },
+  {
+   "default": "0",
+   "fieldname": "out_of_scope",
+   "fieldtype": "Check",
+   "label": "Out Of Scope"
+  },
+  {
+   "fieldname": "customer_categories_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Categories"
+  },
+  {
+   "default": "0",
+   "fieldname": "standard_rated_demostic_sales",
+   "fieldtype": "Check",
+   "label": "Standard Rated Domestic Sales"
+  },
+  {
+   "default": "0",
+   "fieldname": "zero_rated_demostic_sales",
+   "fieldtype": "Check",
+   "label": "Zero Rated Domestic Sales"
+  },
+  {
+   "default": "0",
+   "fieldname": "exempt_sales",
+   "fieldtype": "Check",
+   "label": "Exempt Sales"
+  },
+  {
+   "fieldname": "column_break_dqgp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "private_healthcare__education_to_citizens",
+   "fieldtype": "Check",
+   "label": "Private Healthcare / Education To Citizens"
+  },
+  {
+   "default": "0",
+   "fieldname": "exports",
+   "fieldtype": "Check",
+   "label": "Exports"
+  },
+  {
+   "fieldname": "supplier__vendor_categories_section",
+   "fieldtype": "Section Break",
+   "label": "Supplier / Vendor Categories"
+  },
+  {
+   "default": "0",
+   "fieldname": "standard_rated_demostic_purchases",
+   "fieldtype": "Check",
+   "label": "Standard Rated Domestic Purchases"
+  },
+  {
+   "default": "0",
+   "fieldname": "imported_subject_vat_accounted_for_reserve",
+   "fieldtype": "Check",
+   "label": "Imported Subject VAT Accounted For Reserve"
+  },
+  {
+   "default": "0",
+   "fieldname": "exempt_purchases",
+   "fieldtype": "Check",
+   "label": "Exempt purchases"
+  },
+  {
+   "fieldname": "column_break_olik",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "imported_subject_vat_paid_at_customs",
+   "fieldtype": "Check",
+   "label": "Imported Subject VAT Paid At Customs"
+  },
+  {
+   "default": "0",
+   "fieldname": "zero_rated_demostic_purchases",
+   "fieldtype": "Check",
+   "label": "Zero Rated Domestic Purchases"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-06-09 14:19:45.657901",
+ "modified_by": "Administrator",
+ "module": "Doxbook Theme",
+ "name": "VAT Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
